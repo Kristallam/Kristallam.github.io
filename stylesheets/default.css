@@ -6,8 +6,23 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 50px;
   padding-left: 9px;
+  float: left;
+  width: 270px;
+  display: block;
+  height:70px;
 }
 
+.nav {
+  float: right;
+  width: 700px;
+  height:70px;
+  display: block;
+}
+
+.clear {
+  clear:both;
+  display: block;
+}
 #foot1 {
   float: right;
   right: 500px;
