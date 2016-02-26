@@ -1,0 +1,23 @@
+* {
+  background-color: #FFFFF4;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+
+p{
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+}
+
+h2 {
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+}
+
+footer  {
+  font-family: 'Raleway', sans-serif;
+font-size: 10px;
+}
