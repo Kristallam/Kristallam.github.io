@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFF4;
+  background-color: #EBF2F2;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
   font-size: 18px;
   padding-right: 10px;
 }
+
 
 .clear {
   clear:both;
@@ -89,8 +90,8 @@ hr {
 }
 
 .circle1 {
-  background: #E176FF;
-  border:1px solid #E176FF;
+  background: #007E80;
+  border: none;
   border-radius: 50%;
   height:120px;
   width: 120px;
@@ -106,9 +107,13 @@ hr {
   margin-right: 10px;
 }
 
+.circle1:hover{
+  background-color: #98D9B6;
+}
+
 .circle2 {
-  background: #74AEDE;
-  border:1px solid #74AEDE;
+  background: #822626;
+  border: none;
   border-radius: 50%;
   height:120px;
   width: 120px;
@@ -124,9 +129,13 @@ hr {
   line-height: 120px;
 }
 
+.circle2:hover{
+  background-color: #B13756;
+}
+
 .circle3 {
-  background: #85FF91;
-  border:1px solid #85FF91;
+  background: #8B667F;
+  border: none;
   border-radius: 50%;
   height:120px;
   width: 120px;
@@ -148,9 +157,13 @@ hr {
   color: white;
 }
 
+.circle3:hover{
+  background-color: #3D3751;
+}
+
 .circle4 {
-  background: #FFE878;
-  border:1px solid #FFE878;
+  background: #473D4A;
+  border: none;
   border-radius: 50%;
   height:120px;
   width: 120px;
@@ -164,6 +177,10 @@ hr {
   display: inline-block;
   text-decoration: none;
   line-height: 120px;
+}
+
+.circle4:hover {
+  background-color: #583170;
 }
 
 #intro {
