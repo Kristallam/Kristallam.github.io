@@ -17,12 +17,23 @@ h1 {
   width: 700px;
   height:70px;
   display: block;
+  padding-top: 80px;
+}
+
+.nav a{
+  text-decoration: none;
+  background: transparent;
+  color: black;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  padding-right: 10px;
 }
 
 .clear {
   clear:both;
   display: block;
 }
+
 #foot1 {
   float: right;
   right: 500px;
@@ -92,7 +103,7 @@ hr {
   margin-top: 15px;
   text-decoration: none;
   line-height: 120px;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .circle2 {
