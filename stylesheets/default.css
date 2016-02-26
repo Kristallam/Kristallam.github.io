@@ -1,0 +1,120 @@
+* {
+  background-color: #FFFFF4;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  padding-left: 250px
+}
+
+#foot1 {
+  float: right;
+  right: 500px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#foot2 {
+  float: right;
+  right: 400px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#foot3 {
+  float: right;
+  right: 300px;
+  margin-left: 200px;
+  position: relative;
+}
+
+#foot4 {
+  float: right;
+  right: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.image {
+  border-radius: 50%;
+  border:1px solid black;
+  height:250px;
+  display: inline-block;
+  margin-left: 250px
+}
+
+.circle1 {
+  background: #E176FF;
+  border:1px solid #E176FF;
+  border-radius: 50%;
+  height:120px;
+  width: 120px;
+  color: grey;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 200px;
+  text-decoration: none;
+}
+
+.circle2 {
+  background: #74AEDE;
+  border:1px solid #74AEDE;
+  border-radius: 50%;
+  height:120px;
+  width: 120px;
+  color: grey;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.circle3 {
+  background: #85FF91;
+  border:1px solid #85FF91;
+  border-radius: 50%;
+  height:120px;
+  width: 120px;
+  color: grey;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.circle4 {
+  background: #FFE878;
+  border:1px solid #FFE878;
+  border-radius: 50%;
+  height:120px;
+  width: 120px;
+  color: grey;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#intro {
+  font-family: 'Raleway', sans-serif;
+  width: 700px;
+  padding: 10px;
+  border: 5px solid  #FFFFF4;
+}
