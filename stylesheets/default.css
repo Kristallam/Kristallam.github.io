@@ -1,47 +1,65 @@
-* {
+body {
   background-color: #FFFFF4;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 50px;
-  padding-left: 250px
+  padding-left: 9px;
 }
 
 #foot1 {
   float: right;
   right: 500px;
-  margin-left: 200px;
-  position: relative;
+  margin-left: 100px;
+  display: inline-block;
 }
 
 #foot2 {
   float: right;
   right: 400px;
-  margin-left: 200px;
-  position: relative;
+  margin-left: 100px;
+  display: inline-block;
 }
 
 #foot3 {
   float: right;
   right: 300px;
-  margin-left: 200px;
-  position: relative;
+  margin-left: 100px;
+  display: inline-block;
 }
 
 #foot4 {
   float: right;
   right: 200px;
-  margin-left: 200px;
-  position: relative;
+  margin-left: 100px;
+  display: inline-block;
 }
 
+
+header {
+  width:1000px;
+  margin:0 auto;
+}
+.content-left {
+  float:left;
+  width:250px;
+  display: block;
+}
+.content-right {
+  float:right;
+  width:750px;
+  display: block;
+}
+hr {
+  clear: both;
+  width: 100%;
+}
 .image {
   border-radius: 50%;
   border:1px solid black;
-  height:250px;
+  height:260px;
   display: inline-block;
-  margin-left: 250px
 }
 
 .circle1 {
@@ -50,15 +68,16 @@ h1 {
   border-radius: 50%;
   height:120px;
   width: 120px;
-  color: grey;
+  color: white;
   text-align: center;
   margin-left: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   float: right;
   margin-top: 15px;
-  margin-right: 200px;
   text-decoration: none;
+  line-height: 120px;
+  margin-right: 50px;
 }
 
 .circle2 {
@@ -67,7 +86,7 @@ h1 {
   border-radius: 50%;
   height:120px;
   width: 120px;
-  color: grey;
+  color: white;
   text-align: center;
   margin-left: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -76,6 +95,7 @@ h1 {
   margin-top: 15px;
   display: inline-block;
   text-decoration: none;
+  line-height: 120px;
 }
 
 .circle3 {
@@ -84,7 +104,7 @@ h1 {
   border-radius: 50%;
   height:120px;
   width: 120px;
-  color: grey;
+  color: white;
   text-align: center;
   margin-left: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -93,6 +113,13 @@ h1 {
   margin-top: 15px;
   display: inline-block;
   text-decoration: none;
+  line-height: 120px;
+}
+
+.circle3 a{
+  text-decoration: none;
+  background: transparent;
+  color: white;
 }
 
 .circle4 {
@@ -101,7 +128,7 @@ h1 {
   border-radius: 50%;
   height:120px;
   width: 120px;
-  color: grey;
+  color: white;
   text-align: center;
   margin-left: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -110,11 +137,14 @@ h1 {
   margin-top: 15px;
   display: inline-block;
   text-decoration: none;
+  line-height: 120px;
 }
 
 #intro {
   font-family: 'Raleway', sans-serif;
   width: 700px;
   padding: 10px;
-  border: 5px solid  #FFFFF4;
+  clear:both;
+  padding-left: 90px;
+  font-size: 14px
 }
