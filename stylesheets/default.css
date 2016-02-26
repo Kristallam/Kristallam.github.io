@@ -1,0 +1,74 @@
+* {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 50px;
+  padding-left: 250px
+}
+
+#nav1 {
+  float: right;
+  right: 700px;
+  position: relative;
+  margin-top: -50px
+}
+
+#nav2 {
+  float: right;
+  right: 600px;
+  position: relative;
+  margin-top: -50px
+}
+
+#nav3 {
+  float: right;
+  right: 500px;
+  position: relative;
+  margin-top: -50px
+}
+
+#nav4 {
+  float: right;
+  right: 400px;
+  position: relative;
+  margin-top: -50px
+}
+
+.image {
+  border-radius: 50%;
+  border:1px solid black;
+  height:250px;
+  display: inline-block;
+  margin-left: 250px
+}
+
+.circle1 {
+  background: blue;
+  border:1px solid black;
+  border-radius: 50%;
+  height:140px;
+  width: 140px;
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 50px
+  float: left;
+}
+
+.circle2 {
+  background: blue;
+  border:1px solid black;
+  border-radius: 50%;
+  height:140px;
+  width: 140px;
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  float: left;
+}
