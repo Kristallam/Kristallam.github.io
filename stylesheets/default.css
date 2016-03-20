@@ -86,7 +86,8 @@ hr {
 .image {
   border-radius: 50%;
   border:3px solid black;
-  height:260px;
+  height:320px;
+  width: 320px;
   display: inline-block;
 }
 
@@ -102,7 +103,7 @@ hr {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   float: right;
-  margin-top: 15px;
+  margin-top: 55px;
   text-decoration: none;
   line-height: 120px;
   margin-right: 10px;
@@ -124,7 +125,7 @@ hr {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   float: right;
-  margin-top: 15px;
+  margin-top: 55px;
   display: inline-block;
   text-decoration: none;
   line-height: 120px;
@@ -146,7 +147,7 @@ hr {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   float: right;
-  margin-top: 15px;
+  margin-top: 55px;
   display: inline-block;
   text-decoration: none;
   line-height: 120px;
@@ -174,7 +175,7 @@ hr {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   float: right;
-  margin-top: 15px;
+  margin-top: 55px;
   display: inline-block;
   text-decoration: none;
   line-height: 120px;
