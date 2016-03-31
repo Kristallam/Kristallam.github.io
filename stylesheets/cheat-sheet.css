@@ -1,0 +1,46 @@
+body {
+  background-color: #EBF2F2;
+}
+
+header {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px
+}
+
+.content-left {
+  float: left;
+  float:left;
+  width:675px;
+  display: block;
+  border:3px solid black;
+  padding: 12px;
+}
+
+.content-right {
+  float:right;
+  width:675px;
+  display: block;
+  border:3px solid black;
+  padding: 12px;
+}
+
+hr {
+  clear: both;
+  width: 100%;
