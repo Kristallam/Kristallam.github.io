@@ -2,19 +2,16 @@
 <HTML>
 <head>
   <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
-  <title>Awesome Blog</title>
+  <title>Enumerable#cycle</title>
 </head>
 <body>
   <header>
-    <a href="#">&#9166; Return</a>
+    <a href="http://kristallam.github.io/blog/index.html">&#9166; Return</a>
   </header>
- <hr>
- <section>
-   <h1>Week 5 Technical Blog</h1>
+ <section class='left'>
    <h2>Enumerable#cycle</3>
-   <h3>March 12, 2016</h3>
  </section>
- <section>
+ <section class='right'>
    <p>
     For this blog post I will be talking about Enumerbale#cycle, first we should go over what Enumerable is. Enumerable provides a set of methods to traverse, search, sort and manipulate collections. Basically it’s loops, arrays, and hashes but you learn to do more with prettier and less lines of code. What Enumberable#cycle does is that it calls block for each element until the however long you set it. If not parameter is set it will go on forever until none or nil is given. #cycle saves elements in an internal array so changes to enum after the first pass have no effects.
    </p>
@@ -27,7 +24,6 @@
     There you see that if you put cycle(2) it will only repeat the array two times. But it if doesn't have any limit like a.cycle then it will continue to go on forever. Passing an argument to cycle will completely iterate through the collection that many times. The argument to #cycle specifics the number of times to cycle,  not the number of elements to cycle through.
   </p>
  </section>
-<hr>
-<footer>Name, Year, etc</footer>
+<footer>Week 5, Enumberables</footer>
 </body>
 </HTML>
